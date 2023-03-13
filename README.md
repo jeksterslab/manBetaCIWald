@@ -19,8 +19,8 @@ See
 for the latex file of the preprint version of the manuscript with R
 code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex>
-for the latex file of the preprint version of the manuscript executed R
-code. See
+for the latex file of the preprint version of the manuscript with
+executed R code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf>
 for the compiled PDF.
 
