@@ -1,0 +1,78 @@
+\documentclass{article}
+
+\input{latexsrc/preamble/preamble}
+
+%% begin.rcode
+% #| label = "root",
+% #| include = FALSE
+% root <- rprojroot::is_rstudio_project
+%% end.rcode
+
+%% begin.rcode
+% #| label = "knitr",
+% #| include = FALSE,
+% #| file = root$find_file(
+% #|   "latexsrc",
+% #|   "r-scripts",
+% #|   "knitr.R"
+% #| )
+%% end.rcode
+
+%% begin.rcode
+% #| label = "biblatex",
+% #| echo = FALSE,
+% #| warning = FALSE,
+% #| results = "asis"
+% cat(
+%   .PreambleBiblatexCombined(
+%     path = root$find_file(
+%       "latexsrc",
+%       "bib"
+%     ),
+%     output_path = root$find_file(
+%       "latexsrc"
+%     )
+%   )
+% )
+%% end.rcode
+
+\title{manBetaCIWald: betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R}
+\author{Ivan Jacob Agaloos Pesigan}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Description}
+
+Research compendium for the manuscript
+Pesigan, I. J. A., Sun, R. W, \& Cheung, S. F. (Forthcoming).
+betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R.
+\textit{Multivariate Behavioral Research}. Accepted for publication.
+
+\section*{Installation}
+
+You can install the released version of
+\texttt{manBetaCIWald}
+from
+\href{https://github.com/jeksterslab/manBetaCIWald}{GitHub}
+with:
+
+%% begin.rcode
+% #| eval = FALSE
+% install.packages("remotes")
+% remotes::install_github("jeksterslab/manBetaCIWald")
+%% end.rcode
+
+\section*{More Information}
+
+See
+\href{https://jeksterslab.github.io/manBetaCIWald/index.html}{GitHub Pages}
+for package documentation.
+
+\nocite{Lib-R-Manual-2022}
+
+\printbibliography
+
+\end{document}

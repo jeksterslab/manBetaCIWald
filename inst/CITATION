@@ -1,0 +1,45 @@
+year <- 2023
+author_text <- "Pesigan, I. J. A., Cheung, S. F., & Sun, R. W."
+pkg <- meta$Package
+title <- meta$Title
+version <- meta$Version
+author <- c(
+    person(given = "Ivan Jacob Agaloos",
+           family = "Pesigan",
+           role = c("aut", "cre", "cph"),
+           email = "r.jeksterslab@gmail.com",
+           comment = c(ORCID = "0000-0003-4818-8420")),
+    person(given = "Rongwei", 
+           family = "Sun", 
+           role = "ctb",
+           email = "irissun_s@hotmail.com", 
+           comment = c(ORCID = "0000-0003-0034-1422")),
+    person(given = "Shu Fai",
+           family = "Cheung",
+           role = "ctb",
+           email = "shufai.cheung@gmail.com",
+           comment = c(ORCID = "0000-0002-9871-9448"))
+    )
+note <- sprintf(
+  "R package version %s",
+  meta$Version
+)
+url <- "https://github.com/jeksterslab/manMCMedMiss"
+
+bibentry(
+  bibtype = "Unpublished",
+  author = author,
+  title = title,
+  year = year,
+  note = note,
+  textVersion = paste0(
+    author_text, " ",
+    "(", "Forthcoming", ")", ".", " ",
+    title, " "
+  ),
+  header = paste(
+    "To cite",
+    pkg,
+    "in publications, please use:"
+  )
+)

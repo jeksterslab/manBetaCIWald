@@ -1,0 +1,24 @@
+---
+title: "betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R"
+author: "Ivan Jacob Agaloos Pesigan"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+## Description
+
+Research compendium for the manuscript
+Pesigan, I. J. A., Sun, R. W, & Cheung, S. F. (Forthcoming).
+betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R.
+**Multivariate Behavioral Research**. Accepted for publication.
