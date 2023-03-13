@@ -12,6 +12,18 @@ Cheung, S. F. (Forthcoming). betaDelta and betaSandwich: Confidence
 intervals for standardized regression coefficients in R. *Multivariate
 Behavioral Research*. Accepted for publication.
 
+## Preprint
+
+See
+<https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex>
+for the latex file of the preprint version of the manuscript with R
+code. See
+<https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex>
+for the latex file of the preprint version of the manuscript executed R
+code. See
+<https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf>
+for the compiled PDF.
+
 ## Documentation
 
 See [GitHub

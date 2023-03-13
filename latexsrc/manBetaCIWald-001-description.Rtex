@@ -51,19 +51,11 @@ Pesigan, I. J. A., Sun, R. W, \& Cheung, S. F. (Forthcoming).
 betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
 \textit{Multivariate Behavioral Research}. Accepted for publication.
 
-\section*{Installation}
+\section*{Preprint}
 
-You can install the released version of
-\texttt{manBetaCIWald}
-from
-\href{https://github.com/jeksterslab/manBetaCIWald}{GitHub}
-with:
-
-%% begin.rcode
-% #| eval = FALSE
-% install.packages("remotes")
-% remotes::install_github("jeksterslab/manBetaCIWald")
-%% end.rcode
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex} for the latex file of the preprint version of the manuscript with R code.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex} for the latex file of the preprint version of the manuscript executed R code.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf} for the compiled PDF.
 
 \section*{More Information}
 
