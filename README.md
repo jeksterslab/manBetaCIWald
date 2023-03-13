@@ -9,8 +9,8 @@ Ivan Jacob Agaloos Pesigan
 
 Research compendium for the manuscript Pesigan, I. J. A., Sun, R. W, &
 Cheung, S. F. (Forthcoming). betaDelta and betaSandwich: Confidence
-Intervals for Standardized Regression Coefficients in R. **Multivariate
-Behavioral Research**. Accepted for publication.
+Intervals for Standardized Regression Coefficients in R. *Multivariate
+Behavioral Research*. Accepted for publication.
 
 ## Documentation
 
