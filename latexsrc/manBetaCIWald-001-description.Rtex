@@ -57,11 +57,15 @@ See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBeta
 See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex} for the latex file of the preprint version of the manuscript executed R code.
 See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf} for the compiled PDF.
 
-\section*{More Information}
+\section*{Packages}
 
-See
-\href{https://jeksterslab.github.io/manBetaCIWald/index.html}{GitHub Pages}
-for package documentation.
+\texttt{betaDelta} and \texttt{betaSandwich} are available on the Comprehensive R Archive Network (CRAN)
+(\url{https://CRAN.R-project.org/package=betaDelta},
+\url{https://CRAN.R-project.org/package=betaSandwich}).
+Documentation and examples can be found
+in the accompanying websites
+(\url{https://jeksterslab.github.io/betaDelta},
+\url{https://jeksterslab.github.io/betaSandwich}).
 
 \nocite{Lib-R-Manual-2022}
 

@@ -1,7 +1,7 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-03-13
+2023-03-14
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -24,8 +24,11 @@ executed R code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf>
 for the compiled PDF.
 
-## Documentation
+## Packages
 
-See [GitHub
-Pages](https://jeksterslab.github.io/manBetaCIWald/index.html) for
-package documentation.
+`betaDelta` and `betaSandwich` are available on the Comprehensive R
+Archive Network (CRAN) (<https://CRAN.R-project.org/package=betaDelta>,
+<https://CRAN.R-project.org/package=betaSandwich>). Documentation and
+examples can be found in the accompanying websites
+(<https://jeksterslab.github.io/betaDelta>,
+<https://jeksterslab.github.io/betaSandwich>).

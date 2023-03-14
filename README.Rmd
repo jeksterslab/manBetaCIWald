@@ -29,8 +29,12 @@ See [https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWa
 See [https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex](https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex) for the latex file of the preprint version of the manuscript with executed R code.
 See [https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf](https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf) for the compiled PDF.
 
-## Documentation
+## Packages
 
-See
-[GitHub Pages](https://jeksterslab.github.io/manBetaCIWald/index.html)
-for package documentation.
+`betaDelta` and `betaSandwich` are available on the Comprehensive R Archive Network (CRAN)
+([https://CRAN.R-project.org/package=betaDelta](https://CRAN.R-project.org/package=betaDelta),
+[https://CRAN.R-project.org/package=betaSandwich](https://CRAN.R-project.org/package=betaSandwich)).
+Documentation and examples can be found
+in the accompanying websites
+([https://jeksterslab.github.io/betaDelta](https://jeksterslab.github.io/betaDelta),
+[https://jeksterslab.github.io/betaSandwich](https://jeksterslab.github.io/betaSandwich)).
