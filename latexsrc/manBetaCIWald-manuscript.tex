@@ -66,7 +66,7 @@
 \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber,labeldate=year]{biblatex}
 \DeclareLanguageMapping{american}{american-apa}
 
-\addbibresource{/cloud/project/latexsrc/bib.bib}
+\addbibresource{bib.bib}
 
 \DeclareSourcemap{
 \maps[datatype = bibtex]{
@@ -113,7 +113,7 @@ employing heteroskedasticity-consistent (HC) estimators,
 that are robust to nonnormality
 with better performance in smaller sample sizes
 compared to Jones and Waller's ADF technique.
-Despite these advancements, 
+Despite these advancements,
 empirical research has been slow to adopt these methodologies.
 This can be a result of the dearth of user-friendly software programs
 to put these techniques to use.
@@ -141,7 +141,7 @@ of standardized regression coefficients.}
   Pesigan, I. J. A., Sun, R. W, \& Cheung, S. F. (Forthcoming).
   betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
   \textit{Multivariate Behavioral Research}. Accepted for publication.
-  
+
   \addORCIDlink{Ivan Jacob Agaloos Pesigan}{0000-0003-4818-8420};
   \addORCIDlink{Rong Wei Sun}{0000-0003-0034-1422};
   \addORCIDlink{Shu Fai Cheung}{0000-0002-9871-9448}
@@ -375,7 +375,7 @@ specifies the approach used.
 \begin{verbatim}
 #> Call:
 #> BetaDelta(object = fit, type = "mvn")
-#> 
+#>
 #> Standardized regression slopes with MVN standard errors:
 #>            est     se      t     p   0.05%   0.5%   2.5%  97.5%  99.5% 99.95%
 #> NARTIC  0.4951 0.0759 6.5272 0.000  0.2268 0.2905 0.3421 0.6482 0.6998 0.7635
@@ -388,7 +388,7 @@ specifies the approach used.
 \begin{verbatim}
 #> Call:
 #> BetaDelta(object = fit, type = "adf")
-#> 
+#>
 #> Standardized regression slopes with ADF standard errors:
 #>            est     se      t      p   0.05%   0.5%   2.5%  97.5%  99.5% 99.95%
 #> NARTIC  0.4951 0.0674 7.3490 0.0000  0.2568 0.3134 0.3592 0.6311 0.6769 0.7335
@@ -403,7 +403,7 @@ specifies the approach used.
 
 The \texttt{betaSandwich}\footnote{The \texttt{betaSandwich} package also has functions that use normal-theory (\texttt{BetaN}) and ADF (\texttt{BetaADF}) asymptotic sampling covariance matrices.
 These functions apply the SEM approach described by \Textcite{Lib-Regression-Standardized-Coefficients-HC-Dudgeon-2017}
-but without the HC adjustment. 
+but without the HC adjustment.
 While both functions use different calculations compared to the delta method, they generate numerically equivalent results to \texttt{betaDelta::BetaDelta(object, type = "mvn")} and \texttt{betaDelta::BetaDelta(object, type = "adf")}, respectively.} package
 generates SEs and CIs
 for the standardized regression coefficients
@@ -433,7 +433,7 @@ specifies the approach used.
 \begin{verbatim}
 #> Call:
 #> BetaHC(object = fit, type = "hc3")
-#> 
+#>
 #> Standardized regression slopes with HC3 standard errors:
 #>            est     se      t      p   0.05%   0.5%   2.5%  97.5%  99.5% 99.95%
 #> NARTIC  0.4951 0.0786 6.3025 0.0000  0.2172 0.2832 0.3366 0.6537 0.7071 0.7731
@@ -494,7 +494,7 @@ and CIs.
 \begin{verbatim}
 #> Call:
 #> BetaDelta(object = fit, type = "mvn")
-#> 
+#>
 #> Standardized regression slopes with MVN standard errors:
 #>            est     se      t     p   0.05%   0.5%   2.5%  97.5%  99.5% 99.95%
 #> NARTIC  0.4951 0.0759 6.5272 0.000  0.2268 0.2905 0.3421 0.6482 0.6998 0.7635
@@ -507,7 +507,7 @@ and CIs.
 \begin{verbatim}
 #> Call:
 #> BetaHC(object = fit, type = "hc3")
-#> 
+#>
 #> Standardized regression slopes with HC3 standard errors:
 #>            est     se      t      p   0.05%   0.5%   2.5%  97.5%  99.5% 99.95%
 #> NARTIC  0.4951 0.0786 6.3025 0.0000  0.2172 0.2832 0.3366 0.6537 0.7071 0.7731
@@ -530,14 +530,14 @@ the standardized regression coefficients.
 \hlkwd{coef}\hlstd{(delta)}
 \end{alltt}
 \begin{verbatim}
-#>    NARTIC    PCTGRT   PCTSUPP 
+#>    NARTIC    PCTGRT   PCTSUPP
 #> 0.4951451 0.3914887 0.2632477
 \end{verbatim}
 \begin{alltt}
 \hlkwd{coef}\hlstd{(hc)}
 \end{alltt}
 \begin{verbatim}
-#>    NARTIC    PCTGRT   PCTSUPP 
+#>    NARTIC    PCTGRT   PCTSUPP
 #> 0.4951451 0.3914887 0.2632477
 \end{verbatim}
 \end{kframe}
@@ -611,7 +611,7 @@ given a specified confidence level.
 The following are some ways that the packages can contribute.
 To start, they can promote the widespread use of the right techniques for producing SEs and CIs for standardized regression coefficients.
 Because the packages are simple to use and are accessible in the free and open-source \texttt{R} statistical environment, it is hoped that researchers will be able to produce accurate SEs that yield accurate CIs to appropriately assess the uncertainty of standardized regression estimates.
-The packages can also be used by methodologists to explore previously unexplored aspects of the methods. 
+The packages can also be used by methodologists to explore previously unexplored aspects of the methods.
 For instance,
 empirical support for the HC method's robustness has only been offered when the model's misspecification involves nonnormality in the regressors and the residuals.
 Other types of misspecification, such as heteroskedasticity of the residuals, have not been tested for the HC method described above.

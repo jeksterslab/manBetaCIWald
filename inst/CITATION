@@ -24,7 +24,7 @@ note <- sprintf(
   "R package version %s",
   meta$Version
 )
-url <- "https://github.com/jeksterslab/manMCMedMiss"
+url <- "https://github.com/jeksterslab/manBetaCIWald"
 
 bibentry(
   bibtype = "Unpublished",
@@ -35,7 +35,8 @@ bibentry(
   textVersion = paste0(
     author_text, " ",
     "(", "Forthcoming", ")", ".", " ",
-    title, " "
+    title, ".", " ",
+    "Multivariate Behavioral Research", " "
   ),
   header = paste(
     "To cite",
