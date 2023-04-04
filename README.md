@@ -24,7 +24,7 @@ executed R code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf>
 for the compiled PDF.
 
-## Packages
+## R Packages
 
 `betaDelta` and `betaSandwich` are available on the Comprehensive R
 Archive Network (CRAN) (<https://CRAN.R-project.org/package=betaDelta>,
