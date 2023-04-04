@@ -22,8 +22,8 @@ Useful links:
 
 Other contributors:
 \itemize{
-  \item Shu Fai Cheung \email{shufai.cheung@gmail.com} (\href{https://orcid.org/0000-0002-9871-9448}{ORCID}) [contributor]
   \item Rongwei Sun \email{irissun_s@hotmail.com} (\href{https://orcid.org/0000-0003-0034-1422}{ORCID}) [contributor]
+  \item Shu Fai Cheung \email{shufai.cheung@gmail.com} (\href{https://orcid.org/0000-0002-9871-9448}{ORCID}) [contributor]
 }
 
 }

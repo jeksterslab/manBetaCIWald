@@ -1,5 +1,5 @@
 year <- 2023
-author_text <- "Pesigan, I. J. A., Cheung, S. F., & Sun, R. W."
+author_text <- "Pesigan, I. J. A., Sun, R. W., & Cheung, S. F."
 pkg <- meta$Package
 title <- meta$Title
 version <- meta$Version
@@ -34,9 +34,9 @@ bibentry(
   note = note,
   textVersion = paste0(
     author_text, " ",
-    "(", "Forthcoming", ")", ".", " ",
+    "(", "In Press", ")", ".", " ",
     title, ".", " ",
-    "Multivariate Behavioral Research", " "
+    "Multivariate Behavioral Research", ".", " "
   ),
   header = paste(
     "To cite",

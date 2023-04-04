@@ -19,9 +19,9 @@ knitr::opts_chunk$set(
 ## Description
 
 Research compendium for the manuscript
-Pesigan, I. J. A., Sun, R. W, & Cheung, S. F. (Forthcoming).
+Pesigan, I. J. A., Sun, R. W, & Cheung, S. F. (In Press).
 betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
-*Multivariate Behavioral Research*. Accepted for publication.
+*Multivariate Behavioral Research*.
 
 ## Preprint
 

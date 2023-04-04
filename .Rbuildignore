@@ -27,6 +27,3 @@
 ^make.*$
 ^manBetaCIWald.pdf$
 ^vignettes$
-^manBetaCIWald\.Rcheck$
-^manBetaCIWald.*\.tar\.gz$
-^manBetaCIWald.*\.tgz$
