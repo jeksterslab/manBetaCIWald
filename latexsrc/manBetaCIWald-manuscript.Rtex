@@ -102,10 +102,6 @@ of standardized regression coefficients.}
 }
 
 \authornote{
-  Pesigan, I. J. A., Sun, R. W, \& Cheung, S. F. (In Press).
-  betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
-  \textit{Multivariate Behavioral Research}.
-  
   \addORCIDlink{Ivan Jacob Agaloos Pesigan}{0000-0003-4818-8420};
   \addORCIDlink{Rong Wei Sun}{0000-0003-0034-1422};
   \addORCIDlink{Shu Fai Cheung}{0000-0002-9871-9448}
@@ -118,12 +114,19 @@ of standardized regression coefficients.}
   Avenida da Universidade, Taipa,
   Macao SAR, China,
   or by email (i.j.a.pesigan@connect.um.edu.mo).
+
+  The Version of Record of this manuscript has been published and is available in Multivariate Behavioral Research 2023 \url{http://www.tandfonline.com/10.1080/00273171.2023.2201277}.
+  
+  To cite this article:
+  Pesigan, I. J. A., Sun, R. W, \& Cheung, S. F. (2023).
+  betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
+  \textit{Multivariate Behavioral Research}.
+  \url{https://doi.org/10.1080/00273171.2023.2201277}
  }
 
 \begin{document}
 
 \maketitle
-
 Measurements in social and behavioral sciences typically do not have known scales.
 Standardized regression coefficients,
 often denoted by $\beta$,
@@ -160,7 +163,7 @@ to generate SEs and CIs for the standardized regression coefficients
 (delta-ADF).
 While delta-ADF had better CI coverage compared to delta-MVN for nonnormal data,
 it required moderate to large sample sizes ($n \geq 250$).
-\texttt{R} functions from \Textcite{Lib-Regression-Standardized-Coefficients-Delta-Jones-2015} to generate delta method standard errors are available in the \texttt{fungible} package \parencite{Lib-R-Packages-fungible-2022}.
+\texttt{R} functions from \Textcite{Lib-Regression-Standardized-Coefficients-Delta-Jones-2015} to generate delta method SEs are available in the \texttt{fungible} package \parencite{Lib-R-Packages-fungible-2022}.
 
 \Textcite{Lib-Regression-Standardized-Coefficients-HC-Dudgeon-2017},
 proposed some improvements to the delta method

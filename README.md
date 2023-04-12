@@ -1,16 +1,16 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-04-04
+2023-04-12
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ## Description
 
-Research compendium for the manuscript Pesigan, I. J. A., Sun, R. W, &
-Cheung, S. F. (In Press). betaDelta and betaSandwich: Confidence
-intervals for standardized regression coefficients in R. *Multivariate
-Behavioral Research*.
+Research compendium for the manuscript Pesigan, I. J. A., Sun, R. W., &
+Cheung, S. F. (2023). betaDelta and betaSandwich: Confidence intervals
+for standardized regression coefficients in R. *Multivariate Behavioral
+Research*. <https://doi.org/10.1080/00273171.2023.2201277>
 
 ## Preprint
 
