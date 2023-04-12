@@ -32,3 +32,9 @@ Archive Network (CRAN) (<https://CRAN.R-project.org/package=betaDelta>,
 examples can be found in the accompanying websites
 (<https://jeksterslab.github.io/betaDelta>,
 <https://jeksterslab.github.io/betaSandwich>).
+
+## More Information
+
+See [GitHub
+Pages](https://jeksterslab.github.io/manBetaCIWald/index.html) for
+package documentation.
