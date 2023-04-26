@@ -468,6 +468,16 @@ To close this gap,
 \texttt{betaSandwich} can be used to empirically investigate the performance of the HC approach
 in different forms of heteroskedasticity.
 
+\section{Open Practices Statement}
+
+The data and materials for this manuscript are available on
+OSF
+(\url{https://osf.io/8hy7w/})
+and
+GitHub
+(\url{https://github.com/jeksterslab/manBetaCIWald},
+\url{https://jeksterslab.github.io/manBetaCIWald/index.html}).
+
 \printbibliography
 
 \end{document}
