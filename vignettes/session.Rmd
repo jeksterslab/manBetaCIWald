@@ -19,6 +19,8 @@ knitr::opts_chunk$set(
 
 ```{r}
 library(manBetaCIWald)
+library(betaDelta)
+library(betaSandwich)
 ```
 
 # Session
