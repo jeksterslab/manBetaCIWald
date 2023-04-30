@@ -1,9 +1,13 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-04-27
+2023-04-30
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/DOI/10.1080/00273171.2023.2201277.svg)](https://doi.org/10.1080/00273171.2023.2201277)
+<!-- badges: end -->
 
 ## Description
 
