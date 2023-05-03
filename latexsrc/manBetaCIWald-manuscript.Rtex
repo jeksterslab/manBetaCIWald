@@ -279,7 +279,7 @@ and percentage of program graduates who received support
 as regressor variables
 using a data set from 1982 ratings of 46 doctoral programs in psychology
 in the USA
-\parencite{nas1982}.
+\parencite{Lib-Data-Sets-nas1982}.
 This data set
 (\texttt{nas1982})
 is available on both the
