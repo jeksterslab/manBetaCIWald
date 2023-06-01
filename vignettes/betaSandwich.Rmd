@@ -32,6 +32,17 @@ Robust confidence intervals for the standardized regression coefficients are gen
 using the `BetaHC()` function from the `betaSandwich` package following Dudgeon (2017).
 
 ```{r}
+#| include = FALSE
+if (!require("remotes")) install.packages("remotes")
+remotes::install_version(
+  package = "betaSandwich",
+  version = "1.0.4",
+  repos = c(CRAN = "http://cran.rstudio.com"),
+  quiet = TRUE
+)
+```
+
+```{r}
 #| message = FALSE
 library(betaSandwich)
 ```

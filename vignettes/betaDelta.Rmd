@@ -32,6 +32,17 @@ Confidence intervals for the standardized regression coefficients are generated
 using the `BetaDelta()` function from the `betaDelta` package following Yuan and Chan (2011) and Jones and Waller (2015).
 
 ```{r}
+#| include = FALSE
+if (!require("remotes")) install.packages("remotes")
+remotes::install_version(
+  package = "betaDelta",
+  version = "1.0.1",
+  repos = c(CRAN = "http://cran.rstudio.com"),
+  quiet = TRUE
+)
+```
+
+```{r}
 #| message = FALSE
 library(betaDelta)
 ```

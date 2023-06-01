@@ -1,7 +1,7 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-05-10
+2023-06-01
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -36,6 +36,25 @@ Archive Network (CRAN) (<https://CRAN.R-project.org/package=betaDelta>,
 examples can be found in the accompanying websites
 (<https://jeksterslab.github.io/betaDelta>,
 <https://jeksterslab.github.io/betaSandwich>).
+
+### Installation
+
+You can install the CRAN releases of `betaDelta` and `betaSandwich`
+with:
+
+``` r
+install.packages("betaDelta")
+install.packages("betaSandwich")
+```
+
+You can install the development versions of `betaDelta` and
+`betaSandwich` from GitHub with:
+
+``` r
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("jeksterslab/betaDelta")
+remotes::install_github("jeksterslab/betaSandwich")
+```
 
 ## More Information
 

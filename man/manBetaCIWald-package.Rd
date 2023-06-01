@@ -6,13 +6,15 @@
 \alias{_PACKAGE}
 \title{manBetaCIWald: betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R}
 \description{
-Research compendium for the manuscript betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R.
+Research compendium for the manuscript Pesigan, I. J. A., Sun, R. W., & Cheung, S. F. (2023). betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R. Multivariate Behavioral Research. \doi{10.1080/00273171.2023.2201277}
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/jeksterslab/manBetaCIWald}
   \item \url{https://jeksterslab.github.io/manBetaCIWald/}
+  \item \url{https://osf.io/8hy7w/}
+  \item \doi{10.1080/00273171.2023.2201277}
   \item Report bugs at \url{https://github.com/jeksterslab/manBetaCIWald/issues}
 }
 

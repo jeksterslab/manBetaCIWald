@@ -18,6 +18,23 @@ knitr::opts_chunk$set(
 ```
 
 ```{r}
+#| include = FALSE
+if (!require("remotes")) install.packages("remotes")
+remotes::install_version(
+  package = "betaDelta",
+  version = "1.0.1",
+  repos = c(CRAN = "http://cran.rstudio.com"),
+  quiet = TRUE
+)
+remotes::install_version(
+  package = "betaSandwich",
+  version = "1.0.4",
+  repos = c(CRAN = "http://cran.rstudio.com"),
+  quiet = TRUE
+)
+```
+
+```{r}
 library(manBetaCIWald)
 library(betaDelta)
 library(betaSandwich)
@@ -27,10 +44,4 @@ library(betaSandwich)
 
 ```{r}
 sessionInfo()
-```
-
-# Packages
-
-```{r}
-unname(installed.packages()[, 1])
 ```
