@@ -1,7 +1,7 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-06-01
+2023-06-02
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -16,7 +16,7 @@ Cheung, S. F. (2023). betaDelta and betaSandwich: Confidence intervals
 for standardized regression coefficients in R. *Multivariate Behavioral
 Research*. <https://doi.org/10.1080/00273171.2023.2201277>
 
-## Preprint
+## Author-Accepted Manuscript
 
 See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex>

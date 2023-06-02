@@ -26,7 +26,7 @@ betaDelta and betaSandwich: Confidence intervals for standardized regression coe
 *Multivariate Behavioral Research*.
 https://doi.org/10.1080/00273171.2023.2201277
 
-## Preprint
+## Author-Accepted Manuscript
 
 See [https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex](https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex) for the latex file of the preprint version of the manuscript with R code.
 See [https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex](https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex) for the latex file of the preprint version of the manuscript with executed R code.

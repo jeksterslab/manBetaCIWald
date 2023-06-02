@@ -51,6 +51,7 @@ keywords:
 - confidence-intervals
 - delta-method-standard-errors
 - heteroskedasticity-consistent-standard-errors
+- manuscript
 - r-package
 - standardized-regression-coefficients
 identifiers:
