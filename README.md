@@ -1,7 +1,7 @@
 manBetaCIWald
 ================
 Ivan Jacob Agaloos Pesigan
-2023-06-02
+2023-06-06
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -20,11 +20,9 @@ Research*. <https://doi.org/10.1080/00273171.2023.2201277>
 
 See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex>
-for the latex file of the preprint version of the manuscript with R
-code. See
+for the latex file of the manuscript with R code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex>
-for the latex file of the preprint version of the manuscript with
-executed R code. See
+for the latex file of the manuscript with executed R code. See
 <https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf>
 for the compiled PDF.
 
