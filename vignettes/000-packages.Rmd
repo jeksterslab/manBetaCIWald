@@ -1,9 +1,9 @@
 ---
-title: "manBetaCIWald: Package Versions used in Pesigan, Sun, & Cheung (2023)"
+title: "Package Versions used in Pesigan, Sun, & Cheung (2023)"
 author: "Ivan Jacob Agaloos Pesigan"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{manBetaCIWald: Package Versions used in Pesigan, Sun, & Cheung (2023)}
+  %\VignetteIndexEntry{Package Versions used in Pesigan, Sun, & Cheung (2023)}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
