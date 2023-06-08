@@ -15,6 +15,17 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r}
+#| include = FALSE
+if (!require("remotes")) install.packages("remotes")
+remotes::install_version(
+  package = "betaDelta",
+  version = "1.0.1",
+  repos = c(CRAN = "http://cran.rstudio.com"),
+  quiet = TRUE
+)
+```
+
 To cite `betaDelta` in publications, please use:
 
 Pesigan, I. J. A., Sun, R. W., & Cheung, S. F. (2023).
@@ -30,17 +41,6 @@ percentage of program graduates who received support (`PCTSUPP`) as regressor/pr
 using a data set from 1982 ratings of 46 doctoral programs in psychology in the USA (National Research Council, 1982).
 Confidence intervals for the standardized regression coefficients are generated
 using the `BetaDelta()` function from the `betaDelta` package following Yuan and Chan (2011) and Jones and Waller (2015).
-
-```{r}
-#| include = FALSE
-if (!require("remotes")) install.packages("remotes")
-remotes::install_version(
-  package = "betaDelta",
-  version = "1.0.1",
-  repos = c(CRAN = "http://cran.rstudio.com"),
-  quiet = TRUE
-)
-```
 
 ```{r}
 #| message = FALSE

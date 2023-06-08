@@ -7,3 +7,20 @@ template:
     base_font: {google: "Roboto"}
     heading_font: {google: "Roboto Slab"}
     code_font: {google: "JetBrains Mono"}
+
+articles:
+- title: manBetaCIWald
+  contents:
+  - manBetaCIWald
+- title: Package Versions
+  contents:
+  - 000-packages
+- title: betaDelta
+  contents:
+  - betaDelta
+- title: betaSandwich
+  contents:
+  - betaSandwich
+- title: Session
+  contents:
+  - session

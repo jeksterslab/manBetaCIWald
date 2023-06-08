@@ -1,9 +1,9 @@
 ---
-title: "manBetaCIWald: Session"
+title: "manBetaCIWald: Package Website Build Session"
 author: "Ivan Jacob Agaloos Pesigan"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{manBetaCIWald: Session}
+  %\VignetteIndexEntry{manBetaCIWald: Package Website Build Session}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
