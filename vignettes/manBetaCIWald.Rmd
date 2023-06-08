@@ -26,7 +26,7 @@ source(
     quiet = TRUE
   )
 )
-unlink("000-packages.Rmd.R")
+unlink("000-packages.R")
 ```
 
 <!-- badges: start -->

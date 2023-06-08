@@ -27,7 +27,7 @@ source(
     quiet = TRUE
   )
 )
-unlink("000-packages.Rmd.R")
+unlink("000-packages.R")
 ```
 
 To cite `betaSandwich` in publications, please use:

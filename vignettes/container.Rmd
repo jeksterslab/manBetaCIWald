@@ -29,7 +29,7 @@ source(
     quiet = TRUE
   )
 )
-unlink("000-packages.Rmd.R")
+unlink("000-packages.R")
 ```
 
 **[Docker](https://www.docker.com/) is required to build the container described below.**
