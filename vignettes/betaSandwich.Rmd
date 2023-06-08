@@ -17,13 +17,17 @@ knitr::opts_chunk$set(
 
 ```{r}
 #| include = FALSE
-if (!require("remotes")) install.packages("remotes")
-remotes::install_version(
-  package = "betaSandwich",
-  version = "1.0.4",
-  repos = c(CRAN = "http://cran.rstudio.com"),
-  quiet = TRUE
+root <- rprojroot::is_rstudio_project
+source(
+  knitr::purl(
+    root$find_file(
+      "vignettes",
+      "000-packages.Rmd"
+    ),
+    quiet = TRUE
+  )
 )
+unlink("000-packages.Rmd.R")
 ```
 
 To cite `betaSandwich` in publications, please use:

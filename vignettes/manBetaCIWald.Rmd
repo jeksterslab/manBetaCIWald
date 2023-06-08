@@ -14,6 +14,21 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r}
+#| include = FALSE
+root <- rprojroot::is_rstudio_project
+source(
+  knitr::purl(
+    root$find_file(
+      "vignettes",
+      "000-packages.Rmd"
+    ),
+    quiet = TRUE
+  )
+)
+unlink("000-packages.Rmd.R")
+```
+
 <!-- badges: start -->
 [![DOI](https://zenodo.org/badge/DOI/10.1080/00273171.2023.2201277.svg)](https://doi.org/10.1080/00273171.2023.2201277)
 <!-- badges: end -->

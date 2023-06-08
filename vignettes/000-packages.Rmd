@@ -17,6 +17,39 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r}
+#| include = FALSE
+pkg_version <- function(pkg, ver) {
+  if (!require("remotes")) {
+    install.packages("remotes")
+  }
+  if (!require("rprojroot")) {
+    install.packages("rprojroot")
+  }
+  run <- FALSE
+  if (!require(pkg)) {
+    run <- TRUE
+  } else {
+    if (packageVersion(pkg) != ver) {
+      run <- TRUE
+    }
+  }
+  if (run) {
+    remotes::install_version(
+      package = pkg,
+      version = ver,
+      repos = c(CRAN = "http://cran.rstudio.com")
+    )
+  }
+}
+```
+
+```{r}
+#| include = FALSE
+pkg_version("betaDelta", "1.0.1")
+pkg_version("betaSandwich", "1.0.4")
+```
+
 The versions of `betaDelta` and `betaSandwich` used in Pesigan, Sun, & Cheung (2023) 
 can be installed with:
 
@@ -33,18 +66,3 @@ remotes::install_version(
   repos = c(CRAN = "http://cran.rstudio.com")
 )
 ```
-
-Alternatively,
-you can use a [Rocker](https://rocker-project.org/) container containing
-the versions of `betaDelta` and `betaSandwich` used in Pesigan, Sun, & Cheung (2023) with:
-
-```bash
-docker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 jeksterslab/manbetaciwald-rocker
-```
-
-Open `http://localhost:8787` on your web browser to launch `Rstudio Server`.
-
-- username: rstudio
-- password: yourpassword
-
-See [https://github.com/jeksterslab/docker-manbetaciwald-rocker](https://github.com/jeksterslab/docker-manbetaciwald-rocker) for more information on the container.

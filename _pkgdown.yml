@@ -12,15 +12,18 @@ articles:
 - title: manBetaCIWald
   contents:
   - manBetaCIWald
-- title: Package Versions
-  contents:
-  - 000-packages
 - title: betaDelta
   contents:
   - betaDelta
 - title: betaSandwich
   contents:
   - betaSandwich
+- title: Package Versions
+  contents:
+  - 000-packages
+- title: Container
+  contents:
+  - container
 - title: Session
   contents:
   - session
