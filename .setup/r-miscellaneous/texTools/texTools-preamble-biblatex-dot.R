@@ -6,8 +6,6 @@
 #'
 #' @param path Character string.
 #'   Path to `*.bib` files.
-#' @param output_path Character string.
-#'   Output path.
 #' @param style Character string.
 #'   `"apa"` or `"reading"`.
 #' @param sortcites Logical.
@@ -22,52 +20,23 @@
 #'   `"none"` entries are processed in citation order.
 #' @param map Logical.
 #'   Null mapping for `addendum`, `note`, and `annotation`.
-#' @param fn_bib Character string.
-#'   Biblatex filename.
 #'
 #' @family Bibliography Functions
 #' @keywords texTools biblatex internal
 #' @noRd
-.PreambleBiblatexCombined <- function(path,
-                                      output_path,
-                                      style = "apa",
-                                      sortcites = TRUE,
-                                      sorting = "nyt",
-                                      map = TRUE,
-                                      fn_bib = "bib.bib") {
+.PreambleBiblatex <- function(path,
+                              style = "apa",
+                              sortcites = TRUE,
+                              sorting = "nyt",
+                              map = TRUE) {
   if (dir.exists(path)) {
-    bibs <- list.files(
-      path = path,
-      pattern = "\\.bib$",
-      full.names = TRUE,
-      all.files = TRUE
-    )
-    if (length(bibs) > 0) {
+    bibs <- file.path(path, "bib.bib")
+    if (file.exists(bibs)) {
       if (sortcites) {
         sortcites <- "true"
       } else {
         sortcites <- "false"
       }
-      bibs <- unlist(
-        lapply(
-          X = bibs,
-          FUN = readLines
-        )
-      )
-      dir.create(
-        path = output_path,
-        showWarnings = FALSE
-      )
-      output_file <- file.path(
-        output_path,
-        fn_bib
-      )
-      con <- file(output_file)
-      writeLines(
-        text = bibs,
-        con = con
-      )
-      close(con)
       biblatex <- paste0(
         "\n",
         "\\usepackage[",
@@ -120,7 +89,7 @@
           paste0(
             "\n",
             "\\addbibresource{",
-            output_file,
+            bibs,
             "}",
             "\n",
             collapse = ""

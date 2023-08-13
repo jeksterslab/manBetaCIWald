@@ -1,0 +1,106 @@
+\documentclass{article}
+
+\input{.setup/latex/preamble/preamble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLATEX APA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% begin.rcode
+% #| label = "root",
+% #| include = FALSE
+% root <- rprojroot::is_rstudio_project
+%% end.rcode
+
+%% begin.rcode
+% #| label = "knitr",
+% #| include = FALSE,
+% #| file = root$find_file(
+% #|   ".setup",
+% #|   "latex",
+% #|   "r-scripts",
+% #|   "knitr.R"
+% #| )
+%% end.rcode
+
+%% begin.rcode
+% #| label = "biblatex",
+% #| echo = FALSE,
+% #| message = FALSE,
+% #| warning = FALSE,
+% #| results = "asis"
+% if (require("rProject")) {
+%   Bib(
+%     path = dirname(
+%       root$find_file(
+%         "project.Rproj"
+%       )
+%     )
+%   )
+%   cat(
+%     .PreambleBiblatex(
+%       path = root$find_file(
+%         ".setup",
+%         "latex",
+%         "bib"
+%       )
+%     )
+%   )
+% } else {
+%   cat(
+%     .PreambleBiblatexCombined(
+%       path = root$find_file(
+%         ".setup",
+%         "latex",
+%         "bib"
+%       ),
+%       output_path = root$find_file(
+%         ".setup",
+%         "latex"
+%       )
+%     )
+%   )
+% }
+%% end.rcode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{manBetaCIWald: betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R}
+\author{Ivan Jacob Agaloos Pesigan}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Description}
+
+Research compendium for the manuscript
+Pesigan, I. J. A., Sun, R. W., \& Cheung, S. F. (2023).
+betaDelta and betaSandwich: Confidence intervals for standardized regression coefficients in R.
+\textit{Multivariate Behavioral Research}.
+\url{https://doi.org/10.1080/00273171.2023.2201277}
+
+\section*{Preprint}
+
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex} for the latex file of the preprint version of the manuscript with R code.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex} for the latex file of the preprint version of the manuscript executed R code.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf} for the compiled PDF.
+
+\section*{Packages}
+
+\texttt{betaDelta} and \texttt{betaSandwich} are available on the Comprehensive R Archive Network (CRAN)
+(\url{https://CRAN.R-project.org/package=betaDelta},
+\url{https://CRAN.R-project.org/package=betaSandwich}).
+Documentation and examples can be found
+in the accompanying websites
+(\url{https://jeksterslab.github.io/betaDelta},
+\url{https://jeksterslab.github.io/betaSandwich}).
+
+\nocite{RCoreTeam-2022}
+
+\nocite{Pesigan-Sun-Cheung-2023}
+
+\printbibliography
+
+\end{document}
