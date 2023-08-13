@@ -1,0 +1,68 @@
+---
+title: "Package Versions used in Pesigan, Sun, & Cheung (2023)"
+author: "Ivan Jacob Agaloos Pesigan"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package Versions used in Pesigan, Sun, & Cheung (2023)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/vignettes-"
+)
+```
+
+```{r}
+#| include = FALSE
+pkg_version <- function(pkg, ver) {
+  if (!require("remotes")) {
+    install.packages("remotes")
+  }
+  if (!require("rprojroot")) {
+    install.packages("rprojroot")
+  }
+  run <- FALSE
+  if (!require(pkg)) {
+    run <- TRUE
+  } else {
+    if (packageVersion(pkg) != ver) {
+      run <- TRUE
+    }
+  }
+  if (run) {
+    remotes::install_version(
+      package = pkg,
+      version = ver,
+      repos = c(CRAN = "http://cran.rstudio.com")
+    )
+  }
+}
+```
+
+```{r}
+#| include = FALSE
+pkg_version("betaDelta", "1.0.1")
+pkg_version("betaSandwich", "1.0.4")
+```
+
+The versions of `betaDelta` and `betaSandwich` used in Pesigan, Sun, & Cheung (2023) 
+can be installed with:
+
+```r
+if (!require("remotes")) install.packages("remotes")
+remotes::install_version(
+  package = "betaDelta",
+  version = "1.0.1",
+  repos = c(CRAN = "http://cran.rstudio.com")
+)
+remotes::install_version(
+  package = "betaSandwich",
+  version = "1.0.4",
+  repos = c(CRAN = "http://cran.rstudio.com")
+)
+```
