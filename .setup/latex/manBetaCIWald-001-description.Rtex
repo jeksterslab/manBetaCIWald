@@ -81,11 +81,10 @@ betaDelta and betaSandwich: Confidence intervals for standardized regression coe
 \textit{Multivariate Behavioral Research}.
 \url{https://doi.org/10.1080/00273171.2023.2201277}
 
-\section*{Preprint}
+\section*{Author-Accepted Manuscript}
 
-See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.Rtex} for the latex file of the preprint version of the manuscript with R code.
-See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/manBetaCIWald-manuscript.tex} for the latex file of the preprint version of the manuscript executed R code.
-See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/latexsrc/pdf/manBetaCIWald-manuscript.pdf} for the compiled PDF.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/main/.setup/latex/manBetaCIWald-manuscript.Rtex} for the latex file of the manuscript.
+See \url{https://github.com/jeksterslab/manBetaCIWald/blob/latex/manBetaCIWald-manuscript.pdf} for the compiled PDF.
 
 \section*{Packages}
 

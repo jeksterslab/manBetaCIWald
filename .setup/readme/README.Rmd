@@ -32,7 +32,7 @@ https://doi.org/10.1080/00273171.2023.2201277
 
 ## Author-Accepted Manuscript
 
-See [https://github.com/jeksterslab/manBetaCIWald/blob/main/.setup/latex/manBetaCIWald-manuscript.Rtex](https://github.com/jeksterslab/manBetaCIWald/blob/main/.setup/latex/manBetaCIWald-manuscript.Rtex) for the latex file of the manuscript with R code.
+See [https://github.com/jeksterslab/manBetaCIWald/blob/main/.setup/latex/manBetaCIWald-manuscript.Rtex](https://github.com/jeksterslab/manBetaCIWald/blob/main/.setup/latex/manBetaCIWald-manuscript.Rtex) for the latex file of the manuscript.
 See [https://github.com/jeksterslab/manBetaCIWald/blob/latex/manBetaCIWald-manuscript.pdf](https://github.com/jeksterslab/manBetaCIWald/blob/latex/manBetaCIWald-manuscript.pdf) for the compiled PDF.
 
 ## R Packages
