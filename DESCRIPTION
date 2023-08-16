@@ -38,3 +38,4 @@ Suggests:
     rprojroot,
     betaDelta,
     betaSandwich
+RoxygenNote: 7.2.3
