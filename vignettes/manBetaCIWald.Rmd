@@ -4,9 +4,7 @@ author: "Ivan Jacob Agaloos Pesigan"
 date: "`r Sys.Date()`"
 bibliography: "vignettes.bib"
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
-output:
-  rmarkdown::html_vignette:
-    toc: true
+output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{betaDelta and betaSandwich: Confidence Intervals for Standardized Regression Coefficients in R}
   %\VignetteEngine{knitr::rmarkdown}
