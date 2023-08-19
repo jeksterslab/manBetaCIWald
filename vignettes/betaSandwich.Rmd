@@ -41,9 +41,9 @@ using program quality ratings (`QUALITY`) as the regressand/outcome variable
 and number of published articles attributed to the program faculty members (`NARTIC`),
 percent of faculty members holding research grants (`PCTGRT`), and
 percentage of program graduates who received support (`PCTSUPP`) as regressor/predictor variables
-using a data set from 1982 ratings of 46 doctoral programs in psychology in the USA (National Research Council, 1982).
+using a data set from 1982 ratings of 46 doctoral programs in psychology in the USA @NationalResearchCouncil-1982.
 Robust confidence intervals for the standardized regression coefficients are generated
-using the `BetaHC()` function from the `betaSandwich` package following Dudgeon (2017).
+using the `BetaHC()` function from the `betaSandwich` package following @Dudgeon-2017.
 
 ```{r}
 #| message = FALSE

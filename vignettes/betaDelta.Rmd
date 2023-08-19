@@ -42,9 +42,9 @@ using program quality ratings (`QUALITY`) as the regressand/outcome variable
 and number of published articles attributed to the program faculty members (`NARTIC`),
 percent of faculty members holding research grants (`PCTGRT`), and
 percentage of program graduates who received support (`PCTSUPP`) as regressor/predictor variables
-using a data set from 1982 ratings of 46 doctoral programs in psychology in the USA (National Research Council, 1982).
+using a data set from 1982 ratings of 46 doctoral programs in psychology in the USA [@NationalResearchCouncil-1982].
 Confidence intervals for the standardized regression coefficients are generated
-using the `BetaDelta()` function from the `betaDelta` package following Yuan and Chan (2011) and Jones and Waller (2015).
+using the `BetaDelta()` function from the `betaDelta` package following @Yuan-Chan-2011 and @Jones-Waller-2015.
 
 ```{r}
 #| message = FALSE
