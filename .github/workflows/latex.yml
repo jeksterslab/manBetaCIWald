@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ijapesigan/docs@sha256:0ec79e8efb879a81eb3df95d5208c12faf53259c68f63c0afdef20cad244ae4b
+      image: ijapesigan/docs@sha256:2b20a375673004370e0f6d9c36a7923360f90b700bc6b2bf8f216a8a29f06bc8
     # Only restrict concurrency for non-PR jobs
     concurrency:
       group: latex-${{ github.event_name != 'pull_request' || github.run_id }}
